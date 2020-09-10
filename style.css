@@ -13,10 +13,10 @@ body{
 .calculator-grid{
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 5em);
-    grid-template-rows: minmax(10em, auto) repeat(5, 5em);
+    grid-template-rows: minmax(7em, auto) repeat(5, 5em);
 }
 
 .calculator-grid > button{
@@ -38,6 +38,6 @@ body{
 .output{
     grid-column: 1 / -1;
     background-color: rgba(0, 0, 0, 0.548);
-
-
+    display: flex;
+    align-items: flex-end;
 }
